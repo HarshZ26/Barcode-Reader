@@ -16,6 +16,40 @@ Red - for items that did not have or couldn't detect any barcode
 Blue- for items whose barcode was read successfully.
 ```
 
+## Results-
+Bounding boxes and the output for each image
+![](https://i.imgur.com/8HkDJiE.jpg)
+```
+The detected barcodes and their unique count
+{b'8901030574252': 2, b'8901030656026': 1, b'8901719112737': 1}
+```
+
+![](https://i.imgur.com/iScmJMr.jpg)
+```
+The detected barcodes and their unique count
+{b'8901030578199': 1,
+ b'8901030656026': 1,
+ b'8901063160088': 3,
+ b'8901725114916': 2}
+```
+
+![](https://i.imgur.com/SZoz5Ho.png)
+```
+The detected barcodes and their unique count
+{b'8901719110856': 2}
+```
+
+![](https://i.imgur.com/U9D48QW.png)
+```
+The detected barcodes and their unique count
+{}
+```
+![](https://i.imgur.com/LTv5hCR.png)
+```
+The detected barcodes and their unique count
+{}
+```
+
 ## Installation-
 1. Clone the repository
 2. Navigate to the cloned repository(Note: For Linux,before installing Pyzbar first run this command to avoid import error - `apt install libzbar0`)
@@ -37,4 +71,4 @@ Pyzbar
 
 ## Future work-
 * Integration with deep learning model(eg.-YOLO,Faster RCNN) could improve the bounding box predictions.
-* For barcode detection, the use of more robust libraries could handle rotation invariance. 
+* For accurate barcode detection, the use of more robust libraries could handle rotation invariance. 
