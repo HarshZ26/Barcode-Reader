@@ -37,4 +37,4 @@ Pyzbar
 
 ## Future work-
 * Integration with deep learning model(eg.-YOLO,Faster RCNN) could improve the bounding box predictions.
-* For barcode detection, the use of more robust libraries could handle achieve rotation invariance. 
+* For barcode detection, the use of more robust libraries could handle rotation invariance. 
